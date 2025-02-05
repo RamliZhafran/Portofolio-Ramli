@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portofolio</title>
+    <link rel="stylesheet" href="vanilla.css" />
+    <link rel="stylesheet" href="mediaqueris.css" />
+  </head>
+  <body>
+    <nav id="nav">
+      <div class="nama"><span>Ramli Zhafran</span></div>
+      <div>
+        <ul class="nav-links">
+          <li class="nav-links1"><a href="#about">About</a></li>
+          <li class="nav-links2"><a href="#Project">Project</a></li>
+          <li class="nav-links3"><a href="#Contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="menu">
+      <div class="nama"><span>Ramli Zhafran</span></div>
+      <div class="menu_1">
+        <div class="menu_icon" onclick="toggleMenu()">
+          <span> </span>
+          <span> </span>
+          <span> </span>
+        </div>
+        <div class="menu_link">
+          <li class="nav-links1">
+            <a href="#about" onclick="toggleMenu()">About</a>
+          </li>
+          <li class="nav-links2">
+            <a href="#Project" onclick="toggleMenu()">Project</a>
+          </li>
+          <li class="nav-links3">
+            <a href="#Contact" onclick="toggleMenu()">Contact</a>
+          </li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="pic_container">
+        <img
+          src="./image/WhatsApp Image 2025-02-05 at 07.01.59.jpeg"
+          alt="Ramli Profile Picture"
+        />
+      </div>
+      <div class="text_section">
+        <p class="p_1">Hello, i'm</p>
+        <h1 class="title">Ramli</h1>
+        <p class="p_2">Depelover and Physicist</p>
+        <div class="socialmedia-container">
+        <a href="https://www.linkedin.com/in/ramli-zhafran-amarillo">
+          <img src="./image/linkedin.png" alt="LinkedIn Profile" />
+        </a>
+        <a href="https://github.com/RamliZhafran">
+          <img src="./image/github.png" alt="Github Profile" />
+        </a>
+      </div>
+      </div>
+      
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
